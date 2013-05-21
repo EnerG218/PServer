@@ -1,0 +1,83 @@
+.lobbychat .battle-log,
+.huge-layout .lobbychat .battle-log
+{
+        position: absolute;
+        top: 51px;
+        right: 15;
+        bottom: 40px;
+        left: 551px; /* 420 + 131 */
+        border-top: 0;
+        border-right: 0;
+        height: auto;
+        width: auto;
+        background-color: #cbc5c8;
+        background: #cbc5c8 url(http://i.imgur.com/IBF4C8z.png) no-repeat scroll right bottom;
+}
+ 
+.userlist,
+.userlist li
+{
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+}
+.userlist
+{
+        border-left: 1px solid #000;
+        min-height: 100%;
+        background: #545655;
+}
+.userlist li
+{
+        border-bottom: 1px solid #f00;
+        height: 19px;
+        font: 10pt Verdana, sans-serif;
+        white-space: nowrap;
+}
+.userlist li em.group
+{
+        font-style: normal;
+        font-size: 8pt;
+        color: #f900e7;
+        display: block;
+        float: left;
+        text-align: center;
+        padding: 1px 0 0 1px;
+        width: 14px;
+}
+.userlist li button
+{
+        box-sizing: border-box;
+        display: block;
+        height: auto;
+        background: transparent;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        height: 19px;
+        width: 100%;
+        white-space: nowrap;
+        font: 10pt Verdana, sans-serif;
+        text-align: left;
+        cursor: pointer;
+}
+.userlist li button:hover
+{
+        background: #f0E2E2;
+}
+.userlist li button:active
+{
+        background: #f0cccc;
+}
+.userlist li.cur
+{
+        background: #f0cccc;
+}
+.userlist li.cur button,
+.userlist li.cur button:hover
+{
+        background: #f0cccc;
+        margin: 0 0 0 -1px;
+}
