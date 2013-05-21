@@ -1,19 +1,18 @@
-
 Welcome to Dream University!
-
+==========================================================================
   Dream University is a fork of Zarel's Pokemon-Showdown, and it specializes in more recreational tiers, like Other Metagames
 and a local Pokemon League. In addition to the standard credits (found below), we would like to give some credits to this specific
 branch. The developers, of course, remain the same:
 
 Main contributors for Dream University:
-  -[iSmogoon]
-  -[EnerG218]
-  -[Panpaw]
-  -[Nollan101]
+- [iSmogoon]
+- [EnerG218]
+- [Panpaw]
+- [Nollan101]
   
 Credits for our beloved Tour Commands:
-  -[Orivexes]
-  -Steve
+- [Orivexes]
+- Steve
 
 
 Pokemon Showdown
