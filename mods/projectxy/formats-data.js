@@ -6,3 +6,4 @@ exports.BattleFormatsData = {
 	kyuremblack {
 		inherit: true,
 		tier: "Ubers"
+};
