@@ -1,10 +1,10 @@
 exports.BattleFormatsData = {
   kyurem: {
     inherit: true,
-  	tier: "Ubers"
+  	tier: "Uber"
 	},
 	kyuremblack: {
 		inherit: true,
-		tier: "Ubers"
+		tier: "Uber"
 	},
 };
