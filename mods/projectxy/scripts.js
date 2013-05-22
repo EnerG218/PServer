@@ -3,4 +3,5 @@ exports.BattleScripts = {
         for (var i in this.data.FormatsData)
             this.data.FormatsData[i].dreamWorldRelease = true;
             }
+            //remind me to add in learnsets...
 };
