@@ -307,5 +307,11 @@ gigalith:{num:526,species:"Gigalith",types:["Rock"],baseStats:{hp:85,atk:135,def
 swoobat:{num:528,species:"Swoobat",types:["Psychic","Flying"],baseStats:{hp:67,atk:57,def:55,spa:77,spd:55,spe:114},abilities:{0:"Unaware",1:"Klutz",DW:"Simple"},heightm:0.9,weightkg:10.5,color:"Blue",prevo:"woobat",evoLevel:2,eggGroups:["Flying","Ground"]},
 excadrill:{num:530,species:"Excadrill",types:["Ground","Steel"],baseStats:{hp:110,atk:135,def:60,spa:50,spd:65,spe:88},abilities:{0:"Sand Rush",1:"Sand Force",DW:"Mold Breaker"},heightm:0.7,weightkg:40.4,color:"Gray",prevo:"drilbur",evoLevel:31,eggGroups:["Ground"]},
 audino:{num:531,species:"Audino",types:["Normal"],baseStats:{hp:103,atk:60,def:86,spa:60,spd:86,spe:50},abilities:{0:"Healer",1:"Regenerator",DW:"Persistent"},heightm:1.1,weightkg:31,color:"Pink",eggGroups:["Fairy"]},
+conkeldurr:{num:534,species:"Conkeldurr",types:["Fighting"],genderRatio:{M:0.75,F:0.25},baseStats:{hp:105,atk:140,def:95,spa:55,spd:65,spe:45},abilities:{0:"Guts",1:"Sheer Force",DW:"Iron Fist"},heightm:1.4,weightkg:87,color:"Brown",prevo:"gurdurr",evoLevel:25,eggGroups:["Humanshape"]},
+seismitoad:{num:537,species:"Seismitoad",types:["Water","Ground"],baseStats:{hp:105,atk:85,def:75,spa:85,spd:75,spe:74},abilities:{0:"Forecast",1:"Poison Heal",DW:"Rain Dish"},heightm:1.5,weightkg:62,color:"Blue",prevo:"palpitoad",evoLevel:36,eggGroups:["Water 1"]},
+throh:{num:538,species:"Throh",types:["Fighting"],gender:"M",baseStats:{hp:120,atk:100,def:85,spa:30,spd:85,spe:45},abilities:{0:"Guts",1:"Scrappy",DW:"Mold Breaker"},heightm:1.3,weightkg:55.5,color:"Red",eggGroups:["Humanshape"]},
+sawk:{num:539,species:"Sawk",types:["Fighting"],gender:"M",baseStats:{hp:75,atk:125,def:75,spa:30,spd:75,spe:85},abilities:{0:"Sturdy",1:"Inner Focus",DW:"Mold Breaker"},heightm:1.4,weightkg:51,color:"Blue",eggGroups:["Humanshape"]},
+leavanny:{num:542,species:"Leavanny",types:["Bug","Grass"],baseStats:{hp:75,atk:103,def:80,spa:70,spd:70,spe:92},abilities:{0:"Swarm",1:"Chlorophyll",DW:"Overcoat"},heightm:1.2,weightkg:20.5,color:"Yellow",prevo:"swadloon",evoLevel:21,eggGroups:["Bug"]},
+scolipede:{num:545,species:"Scolipede",types:["Bug","Poison"],baseStats:{hp:60,atk:90,def:89,spa:55,spd:69,spe:112},abilities:{0:"Poison Point",1:"Swarm",DW:"Quick Feet"},heightm:2.5,weightkg:200.5,color:"Red",prevo:"whirlipede",evoLevel:30,eggGroups:["Bug"]},
 
 };
