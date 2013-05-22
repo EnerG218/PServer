@@ -3,7 +3,7 @@ exports.BattleFormatsData = {
     inherit: true,
   	tier: "Ubers"
 	},
-	kyuremblack {
+	kyuremblack: {
 		inherit: true,
 		tier: "Ubers"
 };
