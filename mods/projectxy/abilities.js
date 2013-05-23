@@ -95,6 +95,76 @@ exports.BattleAbilities = {
 		rating: 3,
 		num: 81
 	},
+	"healer": {
+		desc: "Has a 30% chance of curing an adjacent ally's status ailment at the end of each turn in Double and Triple Battles.",
+		shortDesc: "30% chance of curing an adjacent ally's status at the end of each turn.",
+		id: "healer",
+		name: "Healer",
+		onResidualOrder: 5,
+		onResidualSubOrder: 1,
+		onResidual: function(pokemon) {
+			this.heal(clampIntRange(pokemon.maxhp/16, 1));
+		},
+		rating: 4,
+		num: 131
+	},
+	"mummy": {
+		inherit: true,
+		onResidual: function(pokemon) {
+			if (!pokemon.hasType('Ghost')) {
+				this.damage(pokemon.maxhp/16);
+			}
+		}
+	},
+	"turboblaze": {
+		desc: "When this Pokemon becomes active, it nullifies the abilities of opposing active Pokemon that hinder this Pokemon's attacks. These abilities include Battle Armor, Clear Body, Damp, Dry Skin, Filter, Flash Fire, Flower Gift, Heatproof, Hyper Cutter, Immunity, Inner Focus, Insomnia, Keen Eye, Leaf Guard, Levitate, Lightningrod, Limber, Magma Armor, Marvel Scale, Motor Drive, Oblivious, Own Tempo, Sand Veil, Shell Armor, Shield Dust, Simple, Snow Cloak, Solid Rock, Soundproof, Sticky Hold, Storm Drain, Sturdy, Suction Cups, Tangled Feet, Thick Fat, Unaware, Vital Spirit, Volt Absorb, Water Absorb, Water Veil, White Smoke and Wonder Guard.",
+		shortDesc: "This Pokemon's moves ignore the target's Ability if it could modify the effectiveness.",
+		onImmunity: function(type, pokemon) {
+			if (type === 'Fire') {
+				this.boost({spe:1});
+				return null;
+			}
+		},
+		id: "turboblaze",
+		name: "Turboblaze",
+		rating: 3,
+		num: 163
+	},
+	"teravolt": {
+		desc: "When this Pokemon becomes active, it nullifies the abilities of opposing active Pokemon that hinder this Pokemon's attacks. These abilities include Battle Armor, Clear Body, Damp, Dry Skin, Filter, Flash Fire, Flower Gift, Heatproof, Hyper Cutter, Immunity, Inner Focus, Insomnia, Keen Eye, Leaf Guard, Levitate, Lightningrod, Limber, Magma Armor, Marvel Scale, Motor Drive, Oblivious, Own Tempo, Sand Veil, Shell Armor, Shield Dust, Simple, Snow Cloak, Solid Rock, Soundproof, Sticky Hold, Storm Drain, Sturdy, Suction Cups, Tangled Feet, Thick Fat, Unaware, Vital Spirit, Volt Absorb, Water Absorb, Water Veil, White Smoke and Wonder Guard.",
+		shortDesc: "This Pokemon's moves ignore the target's Ability if it could modify the effectiveness.",
+		onImmunity: function(type, pokemon) {
+			if (type === 'Electric') {
+				this.boost({atk:1});
+				return null;
+			}
+		},
+		id: "teravolt",
+		name: "Teravolt",
+		rating: 3,
+		num: 164
+	},
+	"oblivious": {
+		//NOTE: This code is taken from Dusk209's Duskmod format, but when I tested it on NPM, it did not work. If this code does not work I will use my NPM coding in its place.
+		desc: "This pokemon's stats cannot be lowered.",
+		shortDesc: "This pokemon's stats cannot be lowered.",
+		onBoost: function(boost) {
+			for (var i in boost) {
+				if (boost[i] < 0)
+				boost[i] = 0;
+			}
+		},
+		id: "oblivious",
+		name: "Oblivious",
+		rating: 4,
+		num: 12
+	},
+	"cloudnine": {
+		inherit: true,
+		onStart: function(pokemon) {
+			this.setWeather('');
+		}
+	},
 	"flareboost": {
 		desc: "When the user with this ability is burned, it heals 12.5% of its maximum HP per turn.",
 		shortDesc: "When this Pokemon is burned, it heals 12.5% per turn.",
