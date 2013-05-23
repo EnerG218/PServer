@@ -25,8 +25,48 @@ exports.BattleStatuses = {
 			}
 		}
 	},
+	raindance: {
+		inherit: true,
+		durationCallback: function(source, effect) {
+			if (source && source.item === 'damprock') {
+				return 8;
+			} else if (source && source.ability === 'Forecast') {
+				return 0;
+			}
+			return 5;
+		}
+	},
+	sandstorm: {
+		inherit: true,
+		durationCallback: function(source, effect) {
+			if (source && source.item === 'smoothrock') {
+				return 8;
+			} else if (source && source.ability === 'Forecast') {
+				return 0;
+			}
+			return 5;
+		}
+	},
+	sunnyday: {
+		inherit: true,
+		durationCallback: function(source, effect) {
+			if (source && source.item === 'heatrock') {
+				return 8;
+			} else if (source && source.ability === 'Forecast') {
+				return 0;
+			}
+			return 5;
+		}
+	},
 	hail: {
 		inherit: true,
+		durationCallback: function(source, effect) {
+			if (source && source.item === 'icyrock') {
+				return 8;
+			} else if (source && source.ability === 'Forecast') {
+				return 0;
+			}
+			return 5;
 		onModifyDef: function(def, pokemon) {
 			if (pokemon.hasType('Ice') && this.isWeather('hail')) {
 				return def * 3/2;
