@@ -9,6 +9,7 @@ Main contributors for Dream University:
 - [EnerG218]
 - [Panpaw]
 - [Nollan101]
+- [kupochu]
   
 Credits for our beloved Tour Commands:
 - [Orivexes]
