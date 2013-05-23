@@ -91,27 +91,61 @@ exports.BattleScripts = {
 				this.modData('Learnsets', 'shuckle').learnset.leechseed = ['5L28'];
 				this.modData('Learnsets', 'ursaring').learnset.fakeout = ['5L32'];
 				this.modData('Learnsets', 'corsola').learnset.swordsdance = ['5M'];
-				this.modData('Learnsets', 'delibird').roost. = ['5T']
-				this.modData('Learnsets', 'mantine').learnset.gust = ['5L15']
-				this.modData('Learnsets', 'skarmory').learnset.gust = ['5L13']
-				this.modData('Learnsets', 'houndoom').learnset.flareblitz = ['5L49']
-				this.modData('Learnsets', 'houndoom').learnset.destinybond = ['5L32']
-				this.modData('Learnsets', 'houndoom').learnset.swordsdance = ['5M']
-				this.modData('Learnsets', 'donphan').learnset.slackoff = ['5L29']
-				this.modData('Learnsets', 'porygon2').learnset.flamethrower = ['5M']
-				this.modData('Learnsets', 'hitmontop').learnset.painsplit = ['5T']
-				this.modData('Learnsets', 'raikou').learnset.aurasphere = ['5L47']
-				this.modData('Learnsets', 'raikou').learnset.weatherball = ['5L40']
-				this.modData('Learnsets', 'entei').learnset.extremespeed = ['5L40']
-				this.modData('Learnsets', 'entei').learnset.flareblitz = ['5L47']
-				this.modData('Learnsets', 'suicune').learnset.airslash = ['5L40']
-				this.modData('Learnsets', 'suicune').learnset.wish = ['5L32']
-				this.modData('Learnsets', 'suicune').learnset.extremespeed = ['5L47']
-				this.modData('Learnsets', 'tyranitar').learnset.suckerpunch = ['5L0']
-				this.modData('Learnsets', 'celebi').learnset.psyshock = ['5M']
-				this.modData('Learnsets', 'celebi').learnset.earthquake = ['5M']
-				this.modData('Learnsets', 'celebi').learnset.eoaroftime = ['5L99']
-
+				this.modData('Learnsets', 'delibird').learnset.roost = ['5T'];
+				this.modData('Learnsets', 'mantine').learnset.gust = ['5L15'];
+				this.modData('Learnsets', 'skarmory').learnset.gust = ['5L13'];
+				this.modData('Learnsets', 'houndoom').learnset.flareblitz = ['5L49'];
+				this.modData('Learnsets', 'houndoom').learnset.destinybond = ['5L32'];
+				this.modData('Learnsets', 'houndoom').learnset.swordsdance = ['5M'];
+				this.modData('Learnsets', 'donphan').learnset.slackoff = ['5L29'];
+				this.modData('Learnsets', 'porygon2').learnset.flamethrower = ['5M'];
+				this.modData('Learnsets', 'hitmontop').learnset.painsplit = ['5T'];
+				this.modData('Learnsets', 'raikou').learnset.aurasphere = ['5L47'];
+				this.modData('Learnsets', 'raikou').learnset.weatherball = ['5L40'];
+				this.modData('Learnsets', 'entei').learnset.extremespeed = ['5L40'];
+				this.modData('Learnsets', 'entei').learnset.flareblitz = ['5L47'];
+				this.modData('Learnsets', 'suicune').learnset.airslash = ['5L40'];
+				this.modData('Learnsets', 'suicune').learnset.wish = ['5L32'];
+				this.modData('Learnsets', 'suicune').learnset.extremespeed = ['5L47'];
+				this.modData('Learnsets', 'tyranitar').learnset.suckerpunch = ['5L0'];
+				this.modData('Learnsets', 'celebi').learnset.psyshock = ['5M'];
+				this.modData('Learnsets', 'celebi').learnset.earthquake = ['5M'];
+				this.modData('Learnsets', 'celebi').learnset.eoaroftime = ['5L99'];
+				this.modData('Learnsets', 'mightyena').learnset.agility = ['5L45'];
+				this.modData('Learnsets', 'linoone').learnset.wildcharge = ['5M'];
+				this.modData('Learnsets', 'ludicolo').learnset.earthpower = ['5T'];
+				this.modData('Learnsets', 'shiftry').learnset.crunch = ['5L38'];
+				this.modData('Learnsets', 'masquerain').learnset.blizzard = ['5M'];
+				this.modData('Learnsets', 'masquerain').learnset.icebeam = ['5M'];
+				delete this.modData('Learnsets', 'masquerain').learnset.hydropump;
+				this.modData('Learnsets', 'breloom').learnset.closecombat = ['5L55'];
+				this.modData('Learnsets', 'ninjask').learnset.earthquake = ['5M'];
+				this.modData('Learnsets', 'shedinja').learnset.destinybond = ['5L0'];
+				this.modData('Learnsets', 'mawile').learnset.shadowstrike = ['5L55'];
+				this.modData('Learnsets', 'mawile').learnset.forcepalm = ['5L32'];
+				this.modData('Learnsets', 'mawile').learnset.suckerpunch = ['5L19'];
+				this.modData('Learnsets', 'camerupt').learnset.slackoff = ['5L39'];
+				this.modData('Learnsets', 'camerupt').learnset.magmastorm = ['5L52'];
+				this.modData('Learnsets', 'grumpig').learnset.slackoff = ['5L28'];
+				this.modData('Learnsets', 'spinda').learnset.meteormash = ['5L32'];
+				this.modData('Learnsets', 'spinda').learnset.leafstorm = ['5L39'];
+				this.modData('Learnsets', 'spinda').learnset.dracometeor = ['5T'];
+				this.modData('Learnsets', 'flygon').learnset.dragondance = ['5L50'];
+				this.modData('Learnsets', 'flygon').learnset.quiverdance = ['5L32'];
+				this.modData('Learnsets', 'altaria').learnset.hurricane = ['5L47'];
+				this.modData('Learnsets', 'zangoose').learnset.extremespeed = ['5L58'];
+				this.modData('Learnsets', 'claydol').learnset.wish = ['5L39'];
+				this.modData('Learnsets', 'claydol').learnset.healbell = ['5L22'];
+				this.modData('Learnsets', 'claydol').learnset.recover = ['5L0'];
+				delete this.modData('Learnsets', 'cradily').learnset.recover;
+				this.modData('Learnsets', 'kecleon').learnset.sketch = ['5L47'];
+				this.modData('Learnsets', 'tropius').learnset. = ['5L0'];
+				this.modData('Learnsets', 'chimecho').learnset.perishsong = ['5L47'];
+				this.modData('Learnsets', 'walrein').learnset.recover = ['5L39'];
+				delete this.modData('Learnsets', 'huntail').learnset.batonpass;
+				this.modData('Learnsets', 'luvdisc').learnset.wish = ['5L0'];
+				this.modData('Learnsets', 'latios').learnset. = ['4T'];
+				delete this.modData('Learnsets', 'jirachi').learnset.bodyslam;
                 //Need to finish this lul
             }
 };
