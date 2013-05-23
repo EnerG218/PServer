@@ -126,3 +126,4 @@ exports.BattleItems = {
 		isUnreleased: false
 	}
 };
+//There's an error on 117 and 128. ~iSmogoon
