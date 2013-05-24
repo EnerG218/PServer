@@ -114,6 +114,7 @@ exports.BattleItems = {
 		onResidual: function(pokemon) {
 			if (pokemon.template.species === 'Latios' || pokemon.template.species === 'Latias') {
 				this.heal(pokemon.maxhp/16);
+			}
 		},
 		desc: "Raises Special Attack and Special Defense by 50% if the holder is Latias or Latios."
 	},
