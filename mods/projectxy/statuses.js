@@ -67,8 +67,8 @@ exports.BattleStatuses = {
 				return 0;
 			}
 			return 5;
+		},
 		onModifyDef: function(def, pokemon) {
-			//Error      ^
 			if (pokemon.hasType('Ice') && this.isWeather('hail')) {
 				return def * 3/2;
 			}
