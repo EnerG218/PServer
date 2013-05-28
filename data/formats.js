@@ -37,6 +37,30 @@ exports.BattleFormats = {
     		ruleset: ['Pokemon', 'Sleep Clause', 'Species Clause', 'Team Preview', 'Moody Clause', 'Evasion Moves Clause'],
     		banlist: ['Unreleased', 'Illegal', 'Sheer Cold', 'Horn Drill', 'Guillotine']
     	},
+        godmod: {
+    		effectType: 'Format',
+    		section: 'Pokemon Mods',
+    		name: "Godmod",
+    		mod: 'godmod',
+    		rated: false,
+    		challengeShow: true,
+    		searchShow: false,
+    		isTeambuilderFormat: false,
+    		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+    		banlist: ['Eviolite', 'Light Ball', 'Soul Dew', 'Thick Club', 'DeepSeaScale', 'DeepSeaTooth', 'Huge Power', 'Pure Power']
+    	},
+        godmodubers: {
+    		effectType: 'Format',
+    		section: 'Pokemon Mods',
+    		name: "Godmod Ubers",
+    		mod: 'godmod',
+    		rated: false,
+    		challengeShow: true,
+    		searchShow: false,
+    		isTeambuilderFormat: false,
+    		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+    		banlist: []
+    }, 
 	nuv2: {
                 effectType: 'Format',
                 name: "NUv2",
