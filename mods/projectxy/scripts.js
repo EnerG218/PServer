@@ -88,5 +88,6 @@ exports.BattleScripts = {
 				this.modData('Learnsets', 'steelix').learnset.headsmash = ['5L0'];
 				this.modData('Learnsets', 'granbull').learnset.nightslash = ['5L45']
                 //Need to finish this lul
+                //yes you do lul
             }
 };
